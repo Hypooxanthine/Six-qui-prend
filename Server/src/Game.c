@@ -111,7 +111,7 @@ int Round()
         PutCardOnRow(rows + i, DrawCardFromDeck(&deck));
     }
 
-    // On distribue 10 cartes à chaque joueur et on lui montre ses cartes.
+    // On distribue 10 cartes à chaque joueur.
     for(size_t i = 0 ; i < players.size ; i++)
     {
         Player* player = &players.list[i];
